@@ -1,0 +1,1 @@
+Turn on the spectrophotometer instrument by clicking on the power button and wait for 30 min for initialization of the instrument.

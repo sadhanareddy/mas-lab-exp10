@@ -1,0 +1,81 @@
+.container{
+	position: relative;
+}
+
+h4{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#frame1{
+	width: 750px;
+	height: 570px;
+	/*display:block;
+	width: 100%;*/	
+	margin: auto;
+}
+
+#trans_btn{	
+	position: absolute; 
+	width: 560px;
+	height: 110px;
+	left: 400px;
+	top: 265px;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+}
+
+#reset{
+	width: 180px;
+	float: center;
+	background-color: grey;
+	padding: 5px;
+	margin: auto;
+	color: black;
+}
+
+#cube{
+	width: 395px;
+	left: 360px;
+	position: absolute;
+	z-index: 1;
+	visibility: hidden;
+}
+
+#clockscreen{
+	width : 180px;
+	height: 150px;
+	position: fixed;
+	top: 280px;
+	left: 600px;
+	z-index: 2;	
+}
+
+#clockhand{
+	height: 100px;
+	position: fixed;
+	z-index: 2;
+    left: 683px;
+    top: 293px;
+}
+
+#clock{
+	visibility: hidden;
+}
+
+#instruction{
+	border-radius: 5px;
+    background: #73AD21;
+    padding: 10px 15px 25px 10px;
+    width: 280px;
+    height: 15px; 
+    margin: 0 auto;
+    color: black;
+    font-size: 16px;
+    visibility: hidden;
+    position: relative;
+    z-index: 1;
+}

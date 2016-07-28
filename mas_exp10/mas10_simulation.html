@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Experiment10</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="mas10_simulation.css">
+  <script type="text/javascript" src="mas10_simulation.js"></script>
+  <script src="jQueryRotate.js"></script>
+</head>
+
+<body>
+<!-- Start of the container -->
+<div class="container">
+   <h4>Study of kinetics of a reaction by using spectrophotometric method</h4><br/>
+   <div id = "clock">
+      <img id = "clockscreen" src="simulation_images/clock.png">
+      <img id = "clockhand" src="simulation_images/hand.png">
+   </div>
+   <img id = "cube" class="img-responsive" src ="simulation_images/cube1.png">		
+   <img id="frame1" class="img-responsive" src="simulation_images/frames/1.png" />
+   <button id ="trans_btn" type="button" class="btn btn-default" onclick = "changeImage()"></button>
+   <div id = "instruction">&#x2191; UV radiation taking place inside</div>
+   <button id ="reset" type="button" class="btn btn-default btn-block" onclick = "window.location.reload();">Reset Experiment</button>
+</div>
+<!-- end of the container -->
+</body>
+</html>

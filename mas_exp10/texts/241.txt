@@ -1,0 +1,1 @@
+Add 0.04 mL 10-2 M ascorbic acid at a time (not drop by drop) by clicking on the ascorbic acid solution.Immediately after addition of ascorbic acid, the kinetics of the particle development from the seed should be followed by following the increase in absorbance value at lambda_=520 nm with time (at 33 lambda_1°C). 
