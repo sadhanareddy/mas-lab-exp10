@@ -12,8 +12,6 @@ h4{
 #frame1{
 	width: 750px;
 	height: 570px;
-	/*display:block;
-	width: 100%;*/	
 	margin: auto;
 }
 
@@ -79,3 +77,5 @@ h4{
     position: relative;
     z-index: 1;
 }
+
+.mySlides {display:none;}

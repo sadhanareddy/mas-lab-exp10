@@ -10,22 +10,47 @@
   <link rel="stylesheet" type="text/css" href="mas10_simulation.css">
   <script type="text/javascript" src="mas10_simulation.js"></script>
   <script src="jQueryRotate.js"></script>
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
 
 <body>
-<!-- Start of the container -->
-<div class="container">
-   <h4>Study of kinetics of a reaction by using spectrophotometric method</h4><br/>
-   <div id = "clock">
-      <img id = "clockscreen" src="simulation_images/clock.png">
-      <img id = "clockhand" src="simulation_images/hand.png">
-   </div>
-   <img id = "cube" class="img-responsive" src ="simulation_images/cube1.png">		
-   <img id="frame1" class="img-responsive" src="simulation_images/frames/1.png" />
-   <button id ="trans_btn" type="button" class="btn btn-default" onclick = "changeImage()"></button>
-   <div id = "instruction">&#x2191; UV radiation taking place inside</div>
-   <button id ="reset" type="button" class="btn btn-default btn-block" onclick = "window.location.reload();">Reset Experiment</button>
-</div>
-<!-- end of the container -->
+
+<div class="container">   <!-- Start of the container -->
+  <div class="row">  <!-- start of first row -->
+    <div class="col-sm-12">  <!-- column -->
+       <h4>Study of kinetics of a reaction by using spectrophotometric method</h4><br/>
+        <div id = "curves"></div>
+          <div id = "clock">
+            <img id = "clockscreen" src="simulation_images/clock.png">
+            <img id = "clockhand" src="simulation_images/hand.png">
+          </div>
+          <img id = "cube" class="img-responsive" src ="simulation_images/cube.png">    
+          <img id="frame1" class="img-responsive" src="simulation_images/frames/mainframe.png" />
+          <button id ="trans_btn" type="button" class="btn btn-default" onclick = "changeImage()"></button>
+          <div id = "instruction">&#x2191; UV radiation taking place inside</div>
+          <button id ="reset" type="button" class="btn btn-default btn-block" onclick = "window.location.reload();">Reset Experiment</button>
+    </div> <!--  cloumn end -->
+  </div>  <!-- end of first row -->
+
+  <!-- <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="simulation_images/frames/200.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/201.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/202.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/203.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/204.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/205.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/206.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/207.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/208.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/209.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/210.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/211.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/212.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/213.png" style="width:100%">
+  <img class="mySlides" src="simulation_images/frames/214.png" style="width:100%">
+
+</div> -->
+</div>  <!-- end of the container -->
+
 </body>
 </html>
